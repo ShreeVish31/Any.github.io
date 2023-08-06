@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HFD</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: aquamarine;
+        }
+    </style>
+
+    <script>
+        function myFunction(){
+            let inputvalue=document.getElementById("name").value;
+            var a=("<br>");
+            document.getElementById("para").innerHTML="HAPPYY FRIENDSHIP DAY "+inputvalue+"...!"+a+"THANK YOU FOR BEING IN MY LIFE..!"+a+"YOU ARE THE SPECIAL PART OF MY LIFE..!"+a+"YOU ARE NOT SUPPOSED TO LEAVE ME GOT IT..!"+a+"HAVING YOU AS A FRIEND REALLY"+a+"MADE MY JOURNEY MORE MEMORABLE..!"+a+"NO MATTER WHAT HAPPENS WE WILL BE TOGETHER ALWAYS..!"+a+"ONCE AGAIN HAPPYY FRIENDSHIP DAY "+inputvalue+"...!!";
+        }
+    </script>
+</head>
+<body>
+    <h1>HAPPY FRIENDSHIP DAY</h1>
+    <input id="name" type="text" size="30px" placeholder="Enter name in capital letters"><br><br>
+    <button type="button" onclick="myFunction()">GENERATE</button>
+    <br><br><p id="para"></p>
+</body>
+</html>
